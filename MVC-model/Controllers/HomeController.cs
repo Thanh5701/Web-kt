@@ -8,6 +8,7 @@ namespace MVC_model.Controllers
 {
     [Authorize(Roles = "Admin, Manager")]
     public class HomeController : Controller
+
     {
         /*private readonly ILogger<HomeController> _logger;
 
